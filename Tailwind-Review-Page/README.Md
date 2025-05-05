@@ -33,9 +33,9 @@ Bu proje, TailwindCSS kullanılarak hazırlanmış sade ve şık bir kullanıcı
 
 ## 📷 Ekran Görüntüsü
 
-![Site Görünümü](/images/gorsel1.jpg)
-![Site Görünümü](/images/gorsel2.jpg)
-![Site Görünümü](/images/gorsel3.jpg)
+![Site Görünümü](images/gorsel1.jpg)
+![Site Görünümü](images/gorsel2.jpg)
+![Site Görünümü](images/gorsel3.jpg)
  
 
 
