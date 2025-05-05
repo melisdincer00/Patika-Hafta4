@@ -2,10 +2,10 @@
 
 Bu proje, HTML ve Tailwind CSS kullanılarak hazırlanmış mobil uyumlu basit bir açılış sayfasıdır.
 
-![Site Görünümü](./images/sitegorunum1.jpg.jpg)
-![Site Görünümü](./images/sitegorunum2.jpg.jpg)
-![Site Görünümü](./images/sitegorunum3.jpg.jpg)
-![Site Görünümü](./images/sitegorunum4.jpg.jpg)
+![Site Görünümü](./images/sitegorunum1.jpg)
+![Site Görünümü](./images/sitegorunum2.jpg)
+![Site Görünümü](./images/sitegorunum3.jpg)
+![Site Görünümü](./images/sitegorunum4.jpg)
 
 
 ## 📌 İçerik
