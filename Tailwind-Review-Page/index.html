@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr" class="bg-gray-100 text-gray-900">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Review Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <a href="#" class="border-b-2 border-pink-500 text-pink-600">Link</a>
+      <a href="#" class="text-gray-600 hover:text-pink-600">Link</a>
+      <a href="#" class="text-gray-600 hover:text-pink-600">Link</a>
+    </div>
+    <div class="flex items-center space-x-4">
+      <input type="text" placeholder="Search..." class="border px-2 py-1 rounded" />
+      <button class="bg-pink-500 text-white px-4 py-1 rounded hover:bg-pink-600">Log in</button>
+    </div>
+  </nav>
+
+  <!--  Hero Section -->
+  <section class="text-center py-16 px-4 bg-gray-100">
+    <h1 class="text-4xl font-bold">
+      Quisquam necessita <br />
+      vel <span class="text-pink-500">laborum doloribus</span> delectus
+    </h1>
+    <p class="mt-4 text-gray-600">Cupiditate minima voluptate temporibus quia? <br /> Architecto beatae esse ab amet
+      vero eaque explicabo!</p>
+    <div class="mt-6 space-x-4">
+      <button class="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600">Get started</button>
+      <button class="text-pink-600 font-semibold px-6 py-2 rounded hover:bg-pink-500 hover:text-white transition">Learn
+        more</button>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="py-16 px-4 text-center bg-gray-50">
+    <h2 class="text-2xl font-bold mb-10">What our customers are saying about us</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <!--Kartlar -->
+      <!--Kart 1-->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between">
+        <div class="p-6">
+          <div class="text-pink-500 text-2xl mb-2">❝</div>
+          <p class="text-gray-600 italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, rem?</p>
+        </div>
+        <div class="bg-pink-500 text-white px-6 py-4 flex items-center space-x-4">
+          <div class="bg-white text-pink-500 w-10 h-10 rounded-full flex items-center justify-center font-bold">A</div>
+          <div>
+            <p class="font-semibold">Anna Smith</p>
+            <p class="text-xs">UI Designer</p>
+          </div>
+        </div>
+      </div>
+      <!--Kart 2-->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between">
+        <div class="p-6">
+          <div class="text-pink-500 text-2xl mb-2">❝</div>
+          <p class="text-gray-600 italic">Voluptatibus quibusdam eligendi exercitationem molestias possimus facere.</p>
+        </div>
+        <div class="bg-pink-500 text-white px-6 py-4 flex items-center space-x-4">
+          <div class="bg-white text-pink-500 w-10 h-10 rounded-full flex items-center justify-center font-bold">J</div>
+          <div>
+            <p class="font-semibold">John Doe</p>
+            <p class="text-xs">Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+      <!--Kart 3-->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between">
+        <div class="p-6">
+          <div class="text-pink-500 text-2xl mb-2">❝</div>
+          <p class="text-gray-600 italic">Dolor sit amet, consectetur adipiscing elit. Voluptatibus quibusdam.</p>
+        </div>
+        <div class="bg-pink-500 text-white px-6 py-4 flex items-center space-x-4">
+          <div class="bg-white text-pink-500 w-10 h-10 rounded-full flex items-center justify-center font-bold">L</div>
+          <div>
+            <p class="font-semibold">Liam Brown</p>
+            <p class="text-xs">Project Manager</p>
+          </div>
+        </div>
+      </div>
+      <!--Kart 4-->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col justify-between">
+        <div class="p-6">
+          <div class="text-pink-500 text-2xl mb-2">❝</div>
+          <p class="text-gray-600 italic">Eligendi exercitationem molestias possimus facere. Lorem ipsum.</p>
+        </div>
+        <div class="bg-pink-500 text-white px-6 py-4 flex items-center space-x-4">
+          <div class="bg-white text-pink-500 w-10 h-10 rounded-full flex items-center justify-center font-bold">S</div>
+          <div>
+            <p class="font-semibold">Sophia Lee</p>
+            <p class="text-xs">Marketing Lead</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section class="py-16 px-4 bg-gray-50">
+    <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-md border-t-4 border-pink-500">
+      <h3 class="text-2xl font-bold text-pink-500 mb-6 text-center">İletişime Geç</h3>
+      <form class="space-y-4 text-gray-800">
+        <div>
+          <label class="block text-sm font-medium text-black mb-1">Adınız</label>
+          <input type="text" placeholder="Ad Soyad"
+            class="w-full border border-pink-200 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-400" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-black mb-1">E-posta</label>
+          <input type="email" placeholder="ornek@mail.com"
+            class="w-full border border-pink-200 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-400" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-black mb-1">Mesajınız</label>
+          <textarea placeholder="Mesajınızı buraya yazın..." rows="4"
+            class="w-full border border-pink-200 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-pink-400"></textarea>
+        </div>
+        <button
+          class="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-6 py-2 rounded w-full transition">Gönder</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
+    <div class="flex justify-center space-x-6 mb-4">
+      <a href="#" class="hover:text-pink-500">Shop</a>
+      <a href="#" class="hover:text-pink-500">About</a>
+      <a href="#" class="hover:text-pink-500">Blog</a>
+      <a href="#" class="hover:text-pink-500">Pricing</a>
+      <a href="#" class="hover:text-pink-500">Contact</a>
+    </div>
+    <div class="flex justify-center space-x-4 text-pink-500 text-xl">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-google"></i></a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
